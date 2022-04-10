@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+    <div class="set-form container">
+        <input id = "input1" type="text" placeholder="First Name">
+        <input id = "input2" type="text" placeholder="Last Name">
+        <input id = "input3" type="email" placeholder="Email">
+        <button id="insert-row-btn" class="btn btn-primary">Add New Row</button>
+    </div>
+
+    <div class="set-form container">
+        <table class="table table-dark table-striped" id = "myTable">
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+            </tr>
+
+            <tr>
+                <td>Tom</td>
+                <td>Sawyer</td>
+                <td>tom.s@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Huck</td>
+                <td>Finn</td>
+                <td>huck.f@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Mark</td>
+                <td>Train</td>
+                <td>mark.t@gmail.com</td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
